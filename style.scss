@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu+2|Bellota|Cinzel|Dancing+Script|EB+Garamond&display=swap');
+$bgImage: rgb(214, 214, 214);
+$reservationColor: rgb(109, 78, 78);
+$colorCard: rgb(0, 0, 0);
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+// .contact {
+//   background: $bgImage;
+// }
+a {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+}
+.firstImage {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: auto;
+}
+.colorCard {
+  background: $colorCard;
+}
+.textContact {
+  font-family: 'Cinzel', serif;
+}
+.enjoyKitchen {
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+.reservation {
+  i {
+    background: $reservationColor;
+  }
+  h2 {
+    color: $reservationColor;
+  }
+}
+.favorites {
+  .textFavorites {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    font-family: 'Dancing Script', cursive;
+  }
+  .fullMenuView {
+    font-family: 'Dancing Script', cursive;
+  }
+  p {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    width: 20rem;
+    font-family: 'EB Garamond', serif;
+  }
+  h2 {
+    font-family: 'EB Garamond', serif;
+  }
+}
+.row {
+  div {
+    padding: 0 2px !important;
+  }
+}
+input {
+  background: transparent;
+  outline: none;
+  border: none;
+  &::placeholder {
+    color: white;
+  }
+}
+footer {
+  background: rgb(153, 189, 155);
+  button {
+    color: white;
+    &:hover {
+      background: white;
+      color: black;
+    }
+  }
+}

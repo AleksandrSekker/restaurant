@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu+2|Bellota|Cinzel|Dancing+Script|EB+Garamond&display=swap');
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'EB Garamond', serif;
+}
+a {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+}
+.firstImage {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: auto;
+}
+.colorCard {
+  background: #000;
+}
+.textContact {
+  font-family: 'Cinzel', serif;
+}
+.enjoyKitchen {
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+.reservation i {
+  background: #6d4e4e;
+}
+.reservation h2 {
+  color: #6d4e4e;
+}
+.favorites .textFavorites {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+  font-family: 'Dancing Script', cursive;
+}
+.favorites .fullMenuView {
+  font-family: 'Dancing Script', cursive;
+}
+.favorites p {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  width: 20rem;
+  font-family: 'EB Garamond', serif;
+}
+.favorites h2 {
+  font-family: 'EB Garamond', serif;
+}
+.row div {
+  padding: 0 2px !important;
+}
+input {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+input::-webkit-input-placeholder {
+  color: white;
+}
+input:-ms-input-placeholder {
+  color: white;
+}
+input::-ms-input-placeholder {
+  color: white;
+}
+input::placeholder {
+  color: white;
+}
+footer {
+  background: #69a16c;
+}
+footer button {
+  color: white;
+}
+footer button:hover {
+  background: white;
+  color: black;
+}
+/*# sourceMappingURL=style.min.css.map */
+/* .reservationSection h1 {
+  font-family: 'EB Garamond', serif;
+}
+.reservationSection p {
+  font-family: 'EB Garamond', serif;
+} */
+.reservationSection {
+  font-family: 'EB Garamond', serif;
+}
+footer div .subscribe {
+  color: white;
+}
+footer div input {
+  color: white;
+}
+footer p {
+  font-family: 'Dancing Script', cursive;
+}

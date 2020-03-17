@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Crudo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"
+                  >Welcome <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="reservation.html">Reservation</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Disabled</a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="pb-5">
+      <div class="container reservationSection pt-5">
+        <div class="row">
+          <div class="col">
+            <h1 class="">Reservations</h1>
+            <p class="w-50">
+              For parties of six or more, we recommend making reservations at
+              least two weeks in advance. For walk-ins, we only seat parties on
+              a first come, first served basis.
+            </p>
+          </div>
+          <div class="col">
+            <div class="row">
+              <div class="form-group col">
+                <label for="InputFirstName">Name *</label>
+                <p id="firstNameAlert" class=""></p>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="InputFirstName"
+                  aria-describedby="firstNameHelp"
+                  placeholder="John"
+                />
+                <small id="firstNameHelp" class="form-text text-muted"
+                  >First name</small
+                >
+              </div>
+
+              <div class="form-group col mt-2">
+                <label for="exampleInputPassword1"></label>
+                <p id="lastNameAlert" class=""></p>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  placeholder="Doe"
+                />
+                <small id="firstNameHelp" class="form-text text-muted"
+                  >Last Name</small
+                >
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Phone number *</label>
+                <p id="phoneNumberAlert"></p>
+                <input
+                  id="phoneNumber"
+                  type="number"
+                  class="form-control"
+                  placeholder="(123)456-7890"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="john.doe@example.com"
+                />
+              </div>
+            </div>
+            <p id="dateAlert"></p>
+            <div class="row">
+              <div class="form-group col">
+                <label for="InputMM">Date *</label>
+
+                <input
+                  type="number"
+                  class="form-control"
+                  id="InputMM"
+                  aria-describedby="MMHelp"
+                  placeholder="02"
+                />
+                <small id="MMHelp" class="form-text text-muted">MM</small>
+              </div>
+
+              <div class="form-group col mt-2">
+                <label for=""></label>
+
+                <input
+                  type="number"
+                  class="form-control"
+                  id="InputDD"
+                  aria-describedby="DDHelp"
+                  placeholder="10"
+                />
+                <small id="DDHelp" class="form-text text-muted">DD</small>
+              </div>
+              <div class="form-group col mt-2">
+                <label for=""></label>
+
+                <input
+                  type="number"
+                  class="form-control"
+                  id="InputYYYY"
+                  aria-describedby="YYYYHelp"
+                  placeholder="2020"
+                />
+                <small id="YYYYHelp" class="form-text text-muted">YYYY</small>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Number of Guests *</label>
+                <p id="alertNumberOfGest"></p>
+                <input
+                  type="number"
+                  class="form-control"
+                  placeholder="2"
+                  id="numberOfGest"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <label>Comment</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Some comment"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <button
+                id="submit"
+                type="button"
+                class="btn btn-white border border-secondary btn-outline-secondary btn-lg"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="text-center">
+      <p class="text-white pt-5">
+        WE WOULD LOVE TO SHARE WITH YOU OUR GOURMET NEWS, OUR EVENTS DATES AND
+        MUCH MORE !
+      </p>
+      <div class="d-flex container lead pt-3">
+        <input
+          type="text"
+          placeholder="Enter your email here"
+          class="w-75"
+          id="enterYouEmail"
+        />
+        <button
+          id="subscribe"
+          class="btn subscribe w-25  border bordered shadow-none "
+        >
+          SUBSCRIBE
+        </button>
+      </div>
+      <p id="subscribeAlert" class="alert mt-3"></p>
+      <p class="text-white pt-5">&copy;Aleksandr Sekker 2020</p>
+    </footer>
+    <script src="app.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
