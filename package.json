@@ -2,14 +2,14 @@
   "name": "restaurant",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/AleksandrSekker/",
+  "homepage": "https://github.com/AleksandrSekker/restaurant",
   "dependencies": {
     "gh-pages": "^2.2.0"
   }
